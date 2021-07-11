@@ -1,15 +1,15 @@
 ---
+home: true
 title: About
-heroImage: /hero.png
-tagline: Projects of Arghya Ghosh
-actionText: Quick Start →
-actionLink: /guide/
-features:
-  - title: Feature 1 Title
-    details: Feature 1 Description
-  - title: Feature 2 Title
-    details: Feature 2 Description
-  - title: Feature 3 Title
-    details: Feature 3 Description
-footer: Made by Arghya Ghosh with
+heroImage: /assets/about.png
+tagline: About Me
+footer: Made by Arghya Ghosh with ❤️
 ---
+
+<div align="center">
+
+Hi there, I am [Arghya Ghosh](https://uiuxarghya.github.io) a student currently studying in XII.
+<br/>
+This is a site I have built with [VuePress v1.8.2](https://vuepress.vuejs.org/) and hosted with [Vercel](https://vercel.com).
+
+</div>
