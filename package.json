@@ -1,0 +1,36 @@
+{
+  "name": "projects-xii",
+  "version": "1.0.0",
+  "description": "Projects of Arghya Ghosh",
+  "main": "index.js",
+  "authors": {
+    "name": "Arghya Ghosh",
+    "email": "uiuxarghya@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uiuxarghya/project-xii.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uiuxarghya/project-xii/issues"
+  },
+  "homepage": "https://github.com/uiuxarghya/project-xii#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-search": "^1.8.2",
+    "@vuepress/plugin-last-updated": "^1.8.2"
+  },
+  "keywords": [
+    "project-xii",
+    "project"
+  ]
+}
