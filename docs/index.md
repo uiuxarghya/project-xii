@@ -5,11 +5,11 @@ tagline: Projects of Arghya Ghosh
 actionText: Quick Start →
 actionLink: /guide/
 features:
-  - title: Feature 1 Title
-    details: Feature 1 Description
-  - title: Feature 2 Title
-    details: Feature 2 Description
-  - title: Feature 3 Title
-    details: Feature 3 Description
+  - title: Chemistry
+    details: My Chemistry Project on Polymers.
+  - title: Physics
+    details: My Physics project on ??
+  - title: Maths
+    details: My Maths project on ??
 footer: Made by Arghya Ghosh with ❤️
 ---
