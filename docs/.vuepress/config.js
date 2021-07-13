@@ -52,12 +52,13 @@ module.exports = {
    */
   themeConfig: {
     logo: "/logo.png",
+    searchPlaceholder: "Search...",
     smoothScroll: true,
     repo: "uiuxarghya/project-xii",
     docsDir: "docs",
     docsBranch: "main",
     editLinks: true,
-    editLinkText: "Edit this page on GitHub",
+    editLinkText: "Improve this page",
     lastUpdated: true,
     nextLinks: true,
     // default value is true. Set it to false to hide prev page links on all pages
@@ -101,6 +102,11 @@ module.exports = {
           collapsable: false,
           children: ["", "classification-of-polymers"],
         },
+        {
+          title: "Natural Polymers",
+          collapsable: false,
+          children: ["natural-polymers-introduction", "starch", "proteins"],
+        },
       ],
     },
   },
@@ -109,22 +115,20 @@ module.exports = {
    */
   plugins: [
     ["@vuepress/theme-default"],
-    [
-      "@vuepress/search",
-      {
-        searchMaxSuggestions: 10,
-      },
-    ],
-    ["@vuepress/back-to-top"],
-    [
-      ("@vuepress/pwa",
-      {
+    {
+      "@vuepress/pwa": {
         serviceWorker: true,
         updatePopup: {
           message: "New content is available.",
           buttonText: "Refresh",
         },
-      }),
-    ],
+      },
+    },
+    {
+      "@vuepress/search": {
+        searchMaxSuggestions: 10,
+      },
+    },
+    ["@vuepress/back-to-top"],
   ],
 };
